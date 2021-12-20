@@ -1,0 +1,111 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.text-login {
+    padding-top: 95px;
+    padding-left: 100px;
+}
+
+.name {
+    padding-top: 80px;
+    padding-left: 100px;
+}
+
+.input-name {
+    height: 60px;
+    width: 480px;
+    border-radius: 5px;
+    background-color: #DADADA47;
+}
+
+
+.email {
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.input-email {
+    height: 60px;
+    width: 480px;
+    border-radius: 5px;
+    background-color: #DADADA47;
+}
+
+.password {
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.input-password {
+    height: 60px;
+    width: 480px;
+    border-radius: 5px;
+    background-color: #DADADA47;
+}
+
+.forgot-password {
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.text-barrier1 {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.button-login-google {
+    margin-top: 40px;
+    margin-left: 100px;
+    height: 60px;
+    width: 480px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Nunito';
+    font-size: 20px;
+    border: 0px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.button-sign-up {
+    margin-top: 40px;
+    margin-left: 100px;
+    height: 60px;
+    width: 480px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Nunito';
+    font-size: 20px;
+    border: 0px;
+    background-color: black;
+    color: #FFCD61;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.text-information {
+    margin-top: 100px;
+    margin-left: 30px;
+    color: #848484;
+}
+
+.copyright {
+    margin-top: 50px;
+    margin-left: 30px;
+    color: #848484;
+}
+
+.text-barrier2 {
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+.icon {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 200px;
+}
