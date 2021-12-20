@@ -2,159 +2,146 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/home.css" />
 </head>
 
 <body>
-    <div class="container">
-        <header>
+    <div class="header">
+        <div class="item">Icon</div>
+        <div class="item2">
             <nav>
-                <label class="icon-rental">Image</label>
                 <ul>
-                    <li><a href=""></a>Home</li>
-                    <li><a href=""></a>Vehicle Type</li>
-                    <li><a href=""></a>History</li>
-                    <li><a href=""></a>About</li>
-                    <li><button class="button-login">Login</button></li>
-                    <li><button class="button-register">Register</button></li>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="">Vehicle Type</a></li>
+                    <li><a href="./viewMoreDetail.html">History</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="./loginPage.html"><button class="button-login">Login</button></a></li>
+                    <li><a href="./signUp.html"><button class="button-register">Register</button></a></li>
                 </ul>
             </nav>
-        </header>
-        <section class="main-menu">
-            <main>
-                <div class="main-home">
-                    <h2>Explore and</h2>
-                    <h2>Travel</h2> <br>
-                    <h4>Vehicle Finder</h4>
-                    <h4>______</h4>
+        </div>
+    </div>
+    <div class="container-1">
+        <div class="form">
+            <div>
+                <h1>Explore <br />and Travel</h1>
+            </div>
+            <div>
+                <h6>Vehicle Finder<br />
+                ___</h6>
+            </div>
+            <div class="option-form">
+                <select id="cars" name="cars" class="location">
+                    <option value="location">Location</option>
+                    <option value="jakarta">Jakarta</option>
+                    <option value="kalimantan">Kalimantan</option>
+                    <option value="bali">Bali</option>
+                </select>
+                <select id="cars" name="cars" class="type">
+                    <option value="type">Type</option>
+                    <option value="car">Car</option>
+                    <option value="motorbike">Motorbike</option>
+                    <option value="bike">Bike</option>
+                </select>
+            </div>
+            <div class="option-form">
+                <select id="cars" name="cars" class="payment">
+                    <option value="volvo">Payment</option>
+                    <option value="transfer">Transfer</option>
+                    <option value="cash">Cash</option>
+                </select>
+                <select id="cars" name="cars" class="date">
+                    <option value="date">Date</option>
+                    <option value="saab"></option>
+                    <option value="fiat"></option>
+                    <option value="audi"></option>
+                </select>
+            </div>
+            <div class="button">
+                <button type="button" class="button-explore">Explore</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-2">
+        <div class="heading">
+            <div>
+                <h3>Popular in town</h3>
+            </div>
+            <div><a href="#">View all ></a></div>
+        </div>
+        <br />
+        <div class="vehicles-list">
+            <div><img src="asstes/img/image-van.jpeg" class="img-van-1" /></div>
+            <div><img src="asstes/img/motorbike.jpeg" class="img-motorbike-1" /></div>
+            <div><img src="asstes/img/car-van2.jpeg" class="img-van-2" /></div>
+            <div><img src="asstes/img/motorbike2.jpeg" class="img-motorbike-2" /></div>
+        </div>
+    </div>
+
+    <div class="container-3">
+        <div class="heading">
+            <div>
+                <h3>Testimonials</h3>
+            </div>
+            <!-- <div><a href="#">View all ></a></div> -->
+        </div>
+        <div class="testimoni">
+            <div>
+                <br /><br /><br />
+                <div>
+                    <img src="asstes/img/star.png" />
+                    <img src="asstes/img/star.png" />
+                    <img src="asstes/img/star.png" />
+                    <img src="asstes/img/star.png" />
+                    <img src="asstes/img/star.png" />
                 </div>
-                <div class="form-select">
-                    <div class="location">
-                        <select id="location" class="select-location">
-                            <option selected>Location</option>
-                            <option value="1">Temanggung</option>
-                            <option value="2">Parakan</option>
-                            <option value="3">Yogyakarta</option>
-                            <option value="4">Magelang</option>
-                        </select>
-                    </div>
-                    <div class="type">
-                        <select id="type" class="select-type">
-                            <option selected>Type</option>
-                            <option value="1">Car</option>
-                            <option value="2">Motorbike</option>
-                            <option value="3">Bicycle</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-select2">
-                    <div class="payment">
-                        <select id="payment" class="select-payment">
-                            <option selected>Payment</option>
-                            <option value="1">Transfer</option>
-                            <option value="2">Cash</option>
-                        </select>
-                    </div>
-                    <div class="date">
-                        <select id="date" class="select-date">
-                            <option selected>Date</option>
-                            <option value="1"></option>
-                            <option value="2"></option>
-                            <option value="3"></option>
-                        </select>
-                    </div>
-                </div>
-                <div class="button-exp">
-                    <button class="button-explore">Explore</button>
-                </div>
-            </main>
-        </section>
-        <section class="submain-popular">
-            <main>
-                <div class="submain-text">
-                    <h2>Popular in Town</h2>
-                </div>
-                <div class="image-popular">
-                    <div class="image-popular-van">
-                        <img src="./asstes/img/image-van.jpeg" alt="image van" class="image-van">
-                    </div>
-                    <div class="image-popular-motorbike">
-                        <img src="./asstes/img/motorbike.jpeg" alt="img motobike" class="image-motorbike">
-                    </div>
-                    <div class="image-popular-van2">
-                        <img src="./asstes/img/car-van2.jpeg" alt="img van2" class="image-van2">
-                    </div>
-                    <div class="image-popular-motorbike2">
-                        <img src="./asstes/img/motorbike2.jpeg" alt="img motorbike2" class="image-motorbike2">
-                    </div>
-                </div>
-            </main>
-        </section>
-        <section class="submain-testimonials">
-            <main>
-                <div class="testimonial-text">
-                    <h2>Testimonials</h2>
-                </div>
-                <div class="testimonial-text2">
-                    <p>
-                        ”It was the right decision to rent vehicle<br> here, I spent less money and enjoy the<br> trip.
-                        It was
-                        an amazing experience to<br> have a ride for wildlife trip!”
-                    </p>
-                    <div class="profile-person">
-                        <img src="./asstes/img/image-person.png" alt="image person" class="image-person">
-                    </div>
-                </div>
-            </main>
-        </section>
-        <footer>
-            <section class="footer">
-                <main>
-                    <div class="footer-text">
-                        <div class="copyright-text">
-                            <p>Plan and book your perfect trip with<br>
-                                expert advice, travel tips for vehicle<br>
-                                information from us</p> <br>
-                                <p>©2020 Vehicle Rental Center. All rights reserved</p>
-                        </div>
-                        <div class="destinations">
-                            <h5>Destinations</h5>
-                            <div class="all-destinations">
-                                <h6>Bali</h6>
-                                <h6>Yogyakarta</h6>
-                                <h6>Jakarta</h6>
-                                <h6>Kalimantan</h6>
-                                <h6>Malang</h6>
-                            </div>
-                        </div>
-                        <div class="vehicles">
-                            <h5>Vehicles</h5>
-                            <div class="all-types-vehicles">
-                                <h6>Bike</h6>
-                                <h6>Cars</h6>
-                                <h6>Motorbike</h6>
-                                <h6>Return Times</h6>
-                                <h6>FAQs</h6>
-                            </div>
-                        </div>
-                        <div class="interest">
-                            <h5>Interest</h5>
-                            <div class="interest">
-                                <h6>Adventure Travel</h6>
-                                <h6>Art and Culture</h6>
-                                <h6>Wildlife And Nature</h6>
-                                <h6>Family Holidays</h6>
-                                <h6>Culinary Trip</h6>
-                            </div>
-                        </div>
-                    </div>
-                </main>
-            </section>
-        </footer>
+                <div>”It was the right decision to rent vehicle <br> here, I spent less money and enjoy the <br> trip.
+                    It was an amazing experience to <br> have a ride for wildlife trip!”</div><br><br>
+                <h4>Edward Newgate</h4>
+                <h5>Founder Circle</h5>
+            </div>
+            <div><img src="asstes/img/image-person.png" class="image-person" /></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="item1">Plan and book your perfect trip with <br>
+            expert advice, travel tips for vehicle <br>
+            information from us <br><br><br><br> ©2020 Vehicle Rental Center. All rights reserved</div>
+        <div class="destination">
+            Destination
+            <ul>
+                <li>Bali</li>
+                <li>Yogyakarta</li>
+                <li>Jakarta</li>
+                <li>Kalimantan</li>
+                <li>Malang</li>
+            </ul>
+        </div>
+        <div class="vehicle">
+            Vehicle
+            <ul>
+                <li>Bike</li>
+                <li>Cars</li>
+                <li>Motorbike</li>
+                <li>Return Times</li>
+                <li>FAQs</li>
+            </ul>
+        </div>
+        <div class="interest">
+            Interest
+            <ul>
+                <li>Adventure Travel</li>
+                <li>Art And Culture</li>
+                <li>Wildlife And Nature</li>
+                <li>Family Holidays</li>
+                <li>Culinary Trip</li>
+            </ul>
+        </div>
     </div>
 </body>
 

@@ -1,246 +1,246 @@
 *,
 *::after,
 *::before {
-  margin: 0;
-  box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 3%;
+}
+
+.header>div {
+    text-align: center;
+}
+
+.container-1 {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 5% 5%;
+    text-align: left;
+    background: url("../asstes/img/bg-home-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-template-rows: auto;
+}
+
+.container-1>div {
+    text-align: left;
 }
 
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 90%;
+    justify-content: space-around;
+    width: 100%;
     margin: 0 auto;
+    font-size: 15px;
 }
 
-nav ul li{
+nav ul li {
     display: inline;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 100px, auto auto auto 100px;
-    height: 100px;
+nav ul li a {
+    text-decoration: none;
+    color: #b8b8b8;
 }
 
-header {
-    background-color: #FFFFFF;
-    grid-column-start: span 4;
-    line-height: 100px;
-    color: #B8BECD;
-}
-
-.icon-rental{
-    font-size: 30px;
+nav ul li a:hover {
+    color: black;
 }
 
 .button-login {
     border-color: #FFCD61;
-    border-radius: 5px;
-    width: 130px;
-    height: 42px;
+    border-radius: 5%;
     border: 0;
 }
 
 .button-register {
     background-color: #FFCD61;
-    border-radius: 5px;
-    width: 130px;
-    height: 42px;
+    border-radius: 5%;
     border: 0;
 }
 
-.main-menu {
-    grid-column-start: span 4;
-    background-image: url("../asstes/img/bg-home-1.jpeg");
-    width: 100%;
-    height: 100vh;
-    background-size: 100%;
+h1{
+    font-size: 60px;
+    color: #FFFFFF;
 }
 
-.main-home {
-    margin-left: 40px;
-    padding: 50px;
-    font-size: 30px;
-    color: white;
+h6{
+    font-size: 20px;
+    color: #FFFFFF;
 }
 
-.form-select {
+.form {
     display: grid;
-    grid-template-columns: 220px 220px;
-    grid-gap: 100px;
+    grid-template-rows: auto auto auto auto auto;
+    text-align: left;
+}
+
+.form h1 {
+    padding-bottom: 3%;
+}
+
+.form span {
+    padding-bottom: 2%;
+}
+
+.option-form {
+    padding-top: 1%;
+    width: 150%;
+    height: 110%;
+}
+
+.button {
+    padding-top: 2%;
 }
 
 .location {
-    margin-left: 100px;
-    color: border 0.8px solid #AFB0B9;
-}
-
-.select-location {
-    width: 220px;
-    height: 50px;
-    border-radius: 10px;
+    width: 15%;
+    height: 120%;
+    border-radius: 5px;
 }
 
 .type {
-    margin-left: 20px;
-    color: border 0.8px solid #AFB0B9;
-}
-
-.select-type {
-    width: 220px;
-    height: 50px;
-    border-radius: 10px;
-}
-
-.form-select2 {
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: 220px 220px;
-    grid-gap: 100px;
+    width: 15%;
+    height: 120%;
+    border-radius: 5px;
 }
 
 .payment {
-    margin-left: 100px;
-    color: border 0.8px solid #AFB0B9;
-}
-
-.select-payment {
-    width: 220px;
-    height: 50px;
-    border-radius: 10px;
+    width: 15%;
+    height: 120%;
+    border-radius: 5px;
 }
 
 .date {
-    margin-left: 20px;
-    color: border 0.8px solid #AFB0B9;
-}
-
-.select-date {
-    width: 220px;
-    height: 50px;
-    border-radius: 10px;
+    width: 15%;
+    height: 120%;
+    border-radius: 5px;
 }
 
 .button-explore {
-    width: 180px;
-    height: 50px;
     background-color: #FFCD61;
-    border-radius: 10px;
-    margin-top: 20px;
-    margin-left: 100px;
+    border-radius: 5px;
+    border: 0;
+    width: 20%;
+    height: 180%;
     font-weight: bold;
 }
 
-.submain-popular {
+.container-2 {
     display: grid;
-    margin-left: 70px;
+    grid-template-columns: auto;
+    padding: 5% 5%;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-template-rows: auto;
 }
 
-.image-popular {
+.container-2>div {
+    text-align: left;
+}
+
+.heading {
     display: grid;
-    grid-template-columns: 275px 275px 275px 275px;
-    grid-gap: 20px;
-}
-
-.submain-text {
-    margin-top: 80px;
-    margin-bottom: 55px;
-}
-
-.image-van {
-    width: 100%;
-    height: 335px;
-    border-radius: 8px;
-}
-
-.image-motorbike {
-    width: 100%;
-    height: 335px;
-    border-radius: 8px;
-}
-
-.image-van2 {
-    width: 100%;
-    height: 335px;
-    border-radius: 8px;
-}
-
-.image-motorbike2 {
-    width: 100%;
-    height: 335px;
-    border-radius: 8px;
-}
-
-.submain-testimonials {
-    display: grid;
-    grid-column-start: span 4;
-    margin-left: 70px;
-}
-
-.submain-testimonials {
-    margin-top: 100px;
-    margin-bottom: 120px;
-    width: 100%;
-    height: 100vh;
-}
-
-.testimonial-text2 {
-    display: grid;
-    grid-template-columns: 600px 600px;
-    grid-gap: 100px;
-    margin-top: 180px;
-    color: #393939D9;
-}
-
-.signature {
-    margin-top: 35px;
-    font-size: 15px;
-}
-
-.title-person {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #393939D9;
-}
-
-
-.image-person {
-    width: 350px;
-    height: 550px;
-    object-fit: cover;
-    object-position: 50% 50%;
-    border-radius: 10px;
-}
-
-footer {
-    grid-column-start: span 4;
-}
-
-.footer-text {
-    display: flex;
+    grid-template-columns: auto auto;
     justify-content: space-between;
 }
 
-.destinations {
-    margin-bottom: 10px;
+.heading a {
+    text-decoration: none;
 }
 
-h5 {
-    color: #393939;
-    font-size: 17px;
+.vehicles-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 
-h6 {
-    color: #848484;
+.img-van-1 {
+    width: 80%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.img-motorbike-1 {
+    width: 80%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.img-van-2 {
+    width: 80%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.img-motorbike-2 {
+    width: 80%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.container-3 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 5%;
+    padding: 5% 5%;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-template-rows: auto;
+}
+
+.container-3>div {
+    text-align: left;
+}
+
+.testimoni {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 2%;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h5{
+    font-weight: lighter;
     font-size: 16px;
 }
 
-@media (max-width:700px) {
-    .container{
-        grid-template-columns: 1fr;
-        grid-template-rows: 100px auto auto auto 100px;
-        width: 70%;
-    }
+.image-person {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 5%;
+    padding: 5% 5%;
+    text-align: left;
+}
+
+.destination ul li {
+    list-style: none;
+}
+
+.vehicle ul li {
+    list-style: none;
+}
+
+.interest ul li {
+    list-style: none;
+}
+
+
+.item1 {
+    grid-column: 1 / 3;
 }
