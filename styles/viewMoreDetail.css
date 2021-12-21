@@ -205,21 +205,6 @@ width: 50px;
     color: #b8b8b8;
 }
 
-.destination ul li {
-    list-style: none;
-    color: #b8b8b8;
-}
-
-.vehicle ul li {
-    list-style: none;
-    color: #b8b8b8;
-}
-
-.interest ul li {
-    list-style: none;
-    color: #b8b8b8;
-}
-
 .vehicle, .interest, .destination{
   color: black;
 }

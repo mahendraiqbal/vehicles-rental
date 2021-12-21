@@ -145,21 +145,13 @@ h5{
     color: #b8b8b8;
 }
 
-.destination ul li {
-    list-style: none;
+p{
     color: #b8b8b8;
 }
 
-.vehicle ul li {
-    list-style: none;
-    color: #b8b8b8;
+.vehicle, .interest, .destination{
+  color: black;
 }
-
-.interest ul li {
-    list-style: none;
-    color: #b8b8b8;
-}
-
 
 .item1 {
     grid-column: 1 / 3;
