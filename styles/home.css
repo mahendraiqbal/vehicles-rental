@@ -54,14 +54,18 @@ nav ul li a:hover {
 
 .button-login {
     border-color: #FFCD61;
-    border-radius: 5%;
-    border: 0;
+    border-radius: 5px;
+    border: 1%;
+    width: 120px;
+    height: 30px;
 }
 
 .button-register {
     background-color: #FFCD61;
-    border-radius: 5%;
-    border: 0;
+    border-radius: 5px;
+    border: 1%;
+    width: 120px;
+    height: 30px;
 }
 
 h1{
@@ -226,18 +230,22 @@ h5{
     grid-gap: 5%;
     padding: 5% 5%;
     text-align: left;
+    color: #b8b8b8;
 }
 
 .destination ul li {
     list-style: none;
+    color: #b8b8b8;
 }
 
 .vehicle ul li {
     list-style: none;
+    color: #b8b8b8;
 }
 
 .interest ul li {
     list-style: none;
+    color: #b8b8b8;
 }
 
 
