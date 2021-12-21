@@ -248,6 +248,9 @@ h5{
     color: #b8b8b8;
 }
 
+.vehicle, .interest, .destination{
+  color: black;
+}
 
 .item1 {
     grid-column: 1 / 3;
