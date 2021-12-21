@@ -51,8 +51,6 @@ nav ul li a:hover {
     grid-template-columns: auto;
     padding: 5% 5%;
     text-align: left;
-    background-repeat: no-repeat;
-    background-size: 100%;
     grid-template-rows: auto;
 }
 
@@ -75,10 +73,8 @@ h4{
 .container-2 {
     display: grid;
     grid-template-columns: auto;
-    padding: 5% 5%;
+    padding: 0 5%;
     text-align: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
     grid-template-rows: auto;
 }
 
@@ -87,8 +83,6 @@ h4{
     grid-template-columns: auto;
     padding: 5% 5%;
     text-align: left;
-    background-repeat: no-repeat;
-    background-size: 100%;
     grid-template-rows: auto;
 }
 
