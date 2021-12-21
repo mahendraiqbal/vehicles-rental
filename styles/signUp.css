@@ -55,6 +55,7 @@
 .text-barrier1 {
     margin-top: 20px;
     margin-left: 100px;
+    text-align: center;
 }
 
 .button-login-google {
