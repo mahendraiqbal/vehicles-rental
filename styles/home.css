@@ -55,7 +55,6 @@ nav ul li a:hover {
 .button-login {
     border-color: #FFCD61;
     border-radius: 5px;
-    border: 1%;
     width: 120px;
     height: 30px;
 }
@@ -63,7 +62,7 @@ nav ul li a:hover {
 .button-register {
     background-color: #FFCD61;
     border-radius: 5px;
-    border: 1%;
+    border: 0;
     width: 120px;
     height: 30px;
 }
@@ -233,18 +232,7 @@ h5{
     color: #b8b8b8;
 }
 
-.destination ul li {
-    list-style: none;
-    color: #b8b8b8;
-}
-
-.vehicle ul li {
-    list-style: none;
-    color: #b8b8b8;
-}
-
-.interest ul li {
-    list-style: none;
+p{
     color: #b8b8b8;
 }
 
