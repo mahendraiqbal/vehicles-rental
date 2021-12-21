@@ -117,6 +117,7 @@ h5{
     border-radius: 5px;
     font-weight: bold;
     border: 0;
+    text-align: center;
 }
 
 .edit-password{
@@ -127,6 +128,7 @@ h5{
     border-radius: 5px;
     font-weight: bold;
     border: 0;
+    text-align: center;
 }
 
 .button-cancel{
@@ -137,6 +139,7 @@ h5{
     border-radius: 5px;
     font-weight: bold;
     border: 0;
+    text-align: center;
 }
 
 .footer {
