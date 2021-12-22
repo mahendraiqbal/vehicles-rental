@@ -1,53 +1,87 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Nunito:wght@300&family=Playfair+Display:wght@600&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.header {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    padding: 3%;
+.icon-rental {
+    width: 4%;
 }
 
-.header > div {
-    text-align: center;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin: 0 auto;
-    font-size: 15px;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
+a {
+    color: black;
     text-decoration: none;
-    color: #b8b8b8;
+    font-family: 'Nunito', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navbar {
+    /* background-color: purple; */
+    height: 100%;
+    /* padding: 0 30px; */
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+}
+
+.navbar .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 2% 2%;
+}
+
+.navbar ul {
+    display: flex;
+    width: 100%;
+}
+
+.navbar a {
+    color: #B8BECD;
+    padding: 15px;
+    margin: 0 10px;
 }
 
 nav ul li a:hover {
     color: black;
 }
 
-.icon-message{
-  width: 3%;
+.icon-message {
+    width: 30%;
 }
 
-.icon-profile{
-  width: 3%;
-  border-radius: 100%;
-  height: 100%;
+.icon-profile {
+    width: 30px;
+    height: 60%;
+    border-radius: 20px;
 }
 
 .container-1{
   padding: 5% 5%;
+}
+
+.back-button{
+  padding-top: 1%;
+  padding-right: 2%;
+}
+
+h1{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 5% 2%;
 }
 
 .detail{
@@ -72,7 +106,7 @@ nav ul li a:hover {
 
 .button-back{
   width: 100%;
-  padding: 2% 2%;
+  padding: 40% 20%;
 }
 
 .sub-image-1{
@@ -89,7 +123,7 @@ nav ul li a:hover {
 
 .button-next{
   width: 100%;
-  padding: 2% 2%;
+  padding: 40% 40%;
 }
 
 .detail-vehicle{
@@ -98,31 +132,62 @@ nav ul li a:hover {
   grid-template-rows: 70% 10% 20%;
 }
 
+h2{
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+
 h3{
-  font-weight: lighter;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 28px;
 }
 
 h4{
-  font-weight: bold;
+  font-weight: 700;
   color: green;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
 }
 
 h5{
-  font-size: 11px;
+  font-size: 18px;
   color: red;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
 }
 
 p{
   font-weight: lighter;
   color: #b8b8b8;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .price{
   display: grid;
   grid-template-columns: 50% 50%;
   font-weight: bold;
-  padding: 20% 5%;
+  padding: 10% 5%;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 30px;
 }
+
+.container-2{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* .button-price{
+  padding: 5% 5%;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+} */
 
 .button-minus{
   width: 50px;
@@ -154,7 +219,7 @@ width: 50px;
 }
 
 .button-price{
-  padding: 25% 5%;
+  padding: 15% 5%;
   display: grid;
   grid-template-columns: 20% 60% 20%;
   text-align: center;
@@ -196,6 +261,10 @@ width: 50px;
   color: #FFCD61;
 }
 
+.icon-like{
+  height: 50%;
+}
+
 .footer {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
@@ -203,12 +272,68 @@ width: 50px;
     padding: 5% 5%;
     text-align: left;
     color: #b8b8b8;
+    font-family: 'Mulish', sans-serif;
 }
 
-.vehicle, .interest, .destination{
-  color: black;
+.icon-rental-2 {
+    width: 10%;
+    padding-bottom: 5%;
+}
+
+p {
+    color: #b8b8b8;
+}
+
+.vehicle,
+.interest,
+.destination {
+    color: black;
+}
+
+.vehicle ul {
+    text-align: start;
+    padding: 0;
+    color: #b8b8b8;
+}
+
+.interest ul {
+    text-align: start;
+    padding: 0;
+    color: #b8b8b8;
+}
+
+.destination ul {
+    text-align: start;
+    padding: 0;
+    color: #b8b8b8;
 }
 
 .item1 {
     grid-column: 1 / 3;
+}
+
+@media screen and (max-width: 960px) {
+    .icon-profile{
+      height: 60%;
+    }
+
+    h1{
+      font-size: 30px;
+    }
+
+    h2{
+      font-size: 28px;
+    }
+
+    h3{
+      font-size: 20px;
+    }
+
+    h4,h5,p{
+      font-size: 12px;
+    }
+
+    .price{
+      font-size: 18px;
+    }
 }

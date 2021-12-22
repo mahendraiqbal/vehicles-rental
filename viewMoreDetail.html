@@ -10,36 +10,37 @@
 </head>
 
 <body>
-  <div class="header">
-    <div class="item"><img src="./asstes/img/ellipse.png" alt="icon" class="icon"></div>
-    <div class="item2">
-      <nav>
-        <ul>
-          <li><a href="./home.html">Home</a></li>
-          <li><a href="">Vehicle Type</a></li>
-          <li><a href="./viewMoreDetail.html">History</a></li>
-          <li><a href="">About</a></li>
-          <li><a href=""><img src="./asstes/img/message.png" alt="img message" class="icon-message"></a></li>
-          <li><a href="./profile.html"><img src="./asstes/img/profile.png" alt="profile" class="icon-profile"></a></li>
-        </ul>
-      </nav>
+  <div class="navbar">
+        <div class="container flex">
+            <img src="./assets/img/icon.png" alt="icon vehicle rental" class="icon-rental">
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Vehicle Type</a></li>
+                    <li><a href="">History</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="#"></a><img src="./assets/img/message.png" alt="img message" class="icon-message"></li>
+                    <li><a href="./profile.html"><img src="./assets/img/profile.png" alt="icon profile"
+                    class="icon-profile"></a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
-  </div>
   <div class="container-1">
     <div class="heading">
-      <h1>Detail</h1>
+      <h1><a href="#"><img src="./assets/img/back.png" alt="back button" class="back-button"></a> Detail</h1>
       <br>
       <div class="detail">
         <div class="image">
-          <div class="primary-image"><img src="./asstes/img/image-bike-pixie.jpeg" alt="image bike" class="img-bike">
+          <div class="primary-image"><img src="./assets/img/image-bike-pixie.jpeg" alt="image bike" class="img-bike">
           </div>
           <div class="sub-image">
-            <div class="button-back"></div>
-            <div class="sub-image-1"><img src="./asstes/img/image-bike-pixie.jpeg" alt="image sub bike 1"
+            <div class="button-back"><a href="#"><img src="./assets/img/back2.png" alt="back" class="back"></a></div>
+            <div class="sub-image-1"><img src="./assets/img/image-bike-pixie.jpeg" alt="image sub bike 1"
                 class="sub-image-1"></div>
-            <div class="sub-image-2"><img src="./asstes/img/image-bike-pixie.jpeg" alt="image sub bike 2"
+            <div class="sub-image-2"><img src="./assets/img/image-bike-pixie.jpeg" alt="image sub bike 2"
                 class="sub-image-2"></div>
-            <div class="button-next"></div>
+            <div class="button-next"><a href="#"><img src="./assets/img/next.png" alt="next" class="next"></a></div>
           </div>
         </div>
         <div class="detail-vehicle">
@@ -51,11 +52,11 @@
             <p>Capacity: 1 person <br> Type: Bike <br> Reservation before 2 PM</p>
           </div>
           <div class="price">
-            <div class="kosong"></div>
+            <div class="empty"></div>
             <div class="price-vehicle">Rp 78.000/day</div>
           </div>
           <div class="button-price">
-            <div class="minus"><button type="button" class="button-minus">-</button></div>
+            <div class="minus"><a href=""><button class="button-minus">-</button></a></div>
             <div class="total"><button type="button" class="button-total">2</button></div>
             <div class="plus"><button type="button" class="button-plus">+</button></div>
           </div>
@@ -63,42 +64,48 @@
       </div>
       <div class="container-2">
         <div class="button-reserve">
-          <div class="button-chat"><button type="button" class="button-chat">Chat Admin</button></div>
+          <div class="button-chat"><a href=""><button type="button" class="button-chat">Chat Admin</button></a></div>
           <div class="button-reservation"><button type="button" class="button-reservation">Reservation</button></div>
-          <div class="like"><button type="button" class="button-like">Like</button></div>
+          <div class="like"><button type="button" class="button-like"><img src="./assets/img/like.png" alt="icon like" class="icon-like"> Like</button></div>
         </div>
       </div>
       <div class="footer">
-        <div class="item1">Plan and book your perfect trip with <br>
-          expert advice, travel tips for vehicle <br>
-          information from us <br><br><br><br> ©2020 Vehicle Rental Center. All rights reserved</div>
+        <div class="item1">
+            <img src="./assets/img/icon.png" alt="icon vehicle rental" class="icon-rental-2"><br>
+            Plan and book your perfect trip with <br>
+            expert advice, travel tips for vehicle <br>
+            information from us <br><br><br><br> ©2020 Vehicle Rental Center. All rights reserved</div>
         <div class="destination">
             Destination
-            <p>Bali</p>
-            <p>Yogyakarta</p>
-            <p>Jakarta</p>
-            <p>Kalimantan</p>
-            <p>Malang</p>
+            <ul>
+                <li>Bali</li>
+                <li>Yogyakarta</li>
+                <li>Jakarta</li>
+                <li>Kalimantan</li>
+                <li>Malang</li>
+            </ul>
+
         </div>
         <div class="vehicle">
             Vehicle
-                <p>Bike</p>
-                <p>Cars</p>
-                <p>Motorbike</p>
-                <p>Return Times</p>
-                <p>FAQs</p>
+            <ul>
+                <li>Bike</li>
+                <li>Cars</li>
+                <li>Motorbike</li>
+                <li>Return Times</li>
+                <li>FAQs</li>
+            </ul>
         </div>
         <div class="interest">
             Interest
-                <p>Adventure Travel</p>
-                <p>Art And Culture</p>
-                <p>Wildlife And Nature</p>
-                <p>Family Holidays</p>
-                <p>Culinary Trip</p>
+            <ul>
+                <li>Adventure Travel</li>
+                <li>Art And Culture</li>
+                <li>Wildlife And Nature</li>
+                <li>Family Holidays</li>
+                <li>Culinary Trip</li>
+            </ul>
         </div>
-      </div>
     </div>
-  </div>
-</body>
 
 </html>
