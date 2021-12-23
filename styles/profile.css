@@ -11,10 +11,11 @@
 
 .icon-rental {
     width: 4%;
+    height: 100%;
 }
 
 a {
-    color: black;
+    /* color: black; */
     text-decoration: none;
     font-family: 'Nunito', sans-serif;
 }
@@ -60,6 +61,7 @@ nav ul li a:hover {
 
 .icon-message {
     width: 50%;
+    height: 60%;
 }
 
 .icon-profile {
@@ -101,6 +103,7 @@ h4 {
     font-weight: lighter;
     color: #b8b8b8;
     font-family: 'Nunito', sans-serif;
+    filter: contrast(50%);
 }
 
 .container-2 {
@@ -120,7 +123,7 @@ h4 {
     grid-template-rows: auto;
 }
 
-.header-text{
+.header-text {
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
 }
@@ -233,11 +236,13 @@ h5 {
 
 .icon-rental-2 {
     width: 10%;
+    height: 30%;
     padding-bottom: 5%;
 }
 
 p {
     color: #b8b8b8;
+    filter: contrast(50%);
 }
 
 .vehicle,
@@ -250,18 +255,21 @@ p {
     text-align: start;
     padding: 0;
     color: #b8b8b8;
+    filter: contrast(50%);
 }
 
 .interest ul {
     text-align: start;
     padding: 0;
     color: #b8b8b8;
+    filter: contrast(50%);
 }
 
 .destination ul {
     text-align: start;
     padding: 0;
     color: #b8b8b8;
+    filter: contrast(50%);
 }
 
 .item1 {
@@ -310,7 +318,7 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-    .navbar{
+    .navbar {
         padding: 2% 4%;
     }
 
@@ -358,9 +366,9 @@ p {
     }
 
     .icon-rental-2 {
-    width: 12%;
-    padding-bottom: 5%;
-}
+        width: 12%;
+        padding-bottom: 5%;
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -422,5 +430,24 @@ p {
         font-weight: bold;
         border: 0;
         text-align: center;
+    }
+    .icon-rental-2 {
+        width: 20px;
+    }
+
+    .destination,
+    .vehicle,
+    .interest ul li {
+        font-size: 12px;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .item-1 {
+        grid-row: 25% 25% 25% 25%;
     }
 }
