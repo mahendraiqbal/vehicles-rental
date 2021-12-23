@@ -1,99 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Nunito:wght@300&family=Playfair+Display:wght@600&display=swap');
+
 *,
 *::after,
 *::before {
-  margin: 0;
-  box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.text-login {
-    padding-top: 95px;
-    padding-left: 100px;
+.image {
+    background-image: url("../assets/img/image-van.jpeg");
+    /* max-height: 100%;
+    position: fixed; */
+    max-height: 100%;
+    height: auto;
+    /* position: fixed; top: 0; left: 0; */
+    background-size: cover;
 }
 
-.email {
-    padding-top: 80px;
-    padding-left: 100px;
+.title {
+    padding: 10% 5%;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .input-email {
-    height: 60px;
-    width: 480px;
-    border-radius: 5px;
-    background-color: #DADADA47;
+    padding: 2% 5%;
 }
 
-.password {
-    padding-top: 30px;
-    padding-left: 100px;
+.email {
+    width: 450px;
+    height: 50px;
+    background-color: #DADADA;
+    border-radius: 8px;
+    border: 0px;
+    padding-left: 5%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .input-password {
-    height: 60px;
-    width: 480px;
-    border-radius: 5px;
-    background-color: #DADADA47;
+    padding: 2% 5%;
+}
+
+.password {
+    width: 450px;
+    height: 50px;
+    background-color: #DADADA;
+    border-radius: 8px;
+    border: 0px;
+    padding-left: 5%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.button-login {
+    padding: 2% 5%;
+}
+
+.login {
+    width: 450px;
+    height: 50px;
+    background-color: #FFCD61;
+    border-radius: 8px;
+    border: 0px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
 }
 
 .forgot-password {
-    margin-top: 15px;
-    margin-left: 100px;
+    padding: 2% 5%;
 }
 
-.text-barrier1 {
-    margin-top: 20px;
-    margin-left: 100px;
-    text-align: center;
+a {
+    color: black;
+}
+
+span {
+    padding: 5% 35%;
 }
 
 .button-login-google {
-    margin-top: 40px;
-    margin-left: 100px;
-    height: 60px;
-    width: 480px;
-    border-radius: 5px;
+    padding: 2% 5%;
+}
+
+.login-google {
+    width: 450px;
+    height: 50px;
     background-color: #FFFFFF;
-    font-weight: bold;
-    font-family: 'Nunito';
-    font-size: 20px;
+    border-radius: 8px;
     border: 0px;
+    text-align: center;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.icon-google{
+    width: 6%;
+    height: 50%;
 }
 
 .button-sign-up {
-    margin-top: 40px;
-    margin-left: 100px;
-    height: 60px;
-    width: 480px;
-    border-radius: 5px;
-    background-color: #FFFFFF;
-    font-weight: bold;
-    font-family: 'Nunito';
-    font-size: 20px;
-    border: 0px;
-    background-color: black;
+    padding: 2% 5%;
+}
+
+.sign-up {
     color: #FFCD61;
+    width: 450px;
+    height: 50px;
+    background-color: black;
+    border-radius: 8px;
+    border: 0px;
+    text-align: center;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-}
-
-.text-information {
-    margin-top: 100px;
-    margin-left: 30px;
-    color: #848484;
-}
-
-.copyright {
-    margin-top: 50px;
-    margin-left: 30px;
-    color: #848484;
-}
-
-.text-barrier2 {
-    margin-top: 20px;
-    margin-left: 55px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
 }
 
 .icon {
+    padding: 2% 2%;
+}
+
+.icon-rental {
+    width: 6%;
+    height: 100%;
+}
+
+p {
+    padding: 2% 2%;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #848484;
+}
+
+.icon-footer {
     display: flex;
-    margin-top: 20px;
-    margin-left: 200px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+i {
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+    .title {
+        font-size: 32px;
+    }
+
+    .email {
+        width: 400px;
+    }
+
+    .password {
+        width: 400px;
+    }
+
+    .login {
+        width: 400px;
+    }
+
+    .login-google {
+        width: 400px;
+    }
+
+    .sign-up {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 26px;
+    }
+
+    .email {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .password {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    span {
+        font-size: 12px;
+    }
+
+    .forgot-password{
+        font-size: 12px;
+    }
+
+    .login {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .login-google {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .icon-google{
+        height: 30%;
+        width: 6%;
+    }
+
+    .sign-up {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .title {
+        padding: 5% 40%;
+        font-size: 26px;
+    }
+    
+    .input-email{
+        padding: 5% 20%;
+    }
+
+    .email {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .input-password{
+        padding: 0 20%;
+    }
+
+    .password {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    span {
+        padding: 5% 40%;
+        font-size: 12px;
+    }
+
+    .button-login{
+        padding: 5% 20%;
+    }
+
+    .login {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .forgot-password{
+        padding: 2% 20%;
+        font-size: 12px;
+    }
+
+    .button-login-google{
+        padding: 2% 20%;
+    }
+
+    .login-google {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .icon-google{
+        width: 6%;
+        height: 35%;
+    }
+
+    .button-sign-up{
+        padding: 2% 20%;
+    }
+
+    .sign-up {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 12px;
+    }
 }

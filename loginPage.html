@@ -9,55 +9,38 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/loginPage.css">
+    <script src="https://kit.fontawesome.com/58ce5927b0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <img src="./asstes/img/image-van.jpeg" alt="image login" class="image-van-login">
-            <div class="col-md-6 col-sm-4 col-xs-2 edit-login">
-                <div class="text-login">
-                    <h2>Login</h2>
-                </div>
-                <div class="email">
-                    <input type="email" class="input-email" id="email" placeholder="email">
-                </div>
-                <div class="password">
-                    <input type="password" class="input-password" id="password" placeholder="password">
-                </div>
-                <div class="forgot-password">
-                    <a href="forgot-password">Forgot password?</a>
-                </div>
-                <div class="text-barrier1">
-                    <p>try another way</p>
-                </div>
-                <div class="login-with-google">
-                    <button class="button-login-google"> <img src="./asstes/img/icon-google.png" height="26vh" width="30vw"/> Login With Google</button>
-                </div>
-                <div class="sign-up">
-                    <a href="./signUp.html"><button class="button-sign-up">Sign Up</button></a>
-                    
-                </div>
-                <footer>
-                    <div class="text-information">
-                        <p>Plan and book your perfect trip with</p>
-                        <p>expert advice, travel tips fro vehicle</p>
-                        <p>information from us</p>
-                    </div>
-                    <div class="copyright">
-                        <p>Created by Career Karma. © 2020</p>
-                    </div>
-                    <div class="text-barrier2">
-                        <h5>__________________________________________________</h5>
-                    </div>
-                    <div class="icon">
-                        <img src="./asstes/img/twitter.png" alt="icon twitter" class="icon-twitter" >
-                        <img src="./asstes/img/facebook.png" alt="icon facebook" class="icon-facebook">
-                        <img src="./asstes/img/youtube.png" alt="icon youtube" class="icon-youtube">
-                    </div>
-                    
-                </footer>
+    <div class="row">
+        <div class="col-md-6 image"></div>
+        <div class="col-md-6 form">
+            <div class="title">Login</div>
+            <div class="input-email"><input type="email" class="email" id="email" placeholder="Email"></div>
+            <div class="input-password"><input type="password" class="password" id="password" placeholder="Password">
             </div>
+            <div class="button-login"><a href="./home.html"><button class="login">Login</button></a></div>
+            <div class="forgot-password"><a href="#">Forgot password?</a></div>
+            <span>try another way</span>
+            <div class="button-login-google"><button class="login-google"><img src="./assets/img/icon-google.png" alt="icon-google" class="icon-google"> Login With Google</button></div>
+            <div class="button-sign-up"><a href="./signUp.html"><button class="sign-up">Sign Up</button></a></div>
+            <footer>
+                <div class="icon"><img src="./assets/img/icon.png" alt="icon rental" class="icon-rental"></div>
+                <p>Plan and book your perfect trip with <br>
+                    expert advice, travel tips for vehicle <br>
+                    information from us <br><br><br> ©2020 Vehicle Rental Center. All rights reserved</p>
+                <div class="line">
+                    <hr>
+                </div>
+                <div class="icon-footer">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </footer>
         </div>
     </div>
 </body>

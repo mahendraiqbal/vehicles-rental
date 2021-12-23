@@ -276,6 +276,17 @@ p {
     grid-column: 1 / 3;
 }
 
+.line{
+    width: 100%;
+    padding: 5% 5%;
+}
+
+.icon-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 @media screen and (max-width: 960px) {
     .image-profile {
         border-radius: 100%;
@@ -383,6 +394,7 @@ p {
 
     .icon-message {
         width: 30%;
+        height: 40%;
     }
 
 
@@ -432,7 +444,8 @@ p {
         text-align: center;
     }
     .icon-rental-2 {
-        width: 20px;
+        width: 4%;
+        height: 20%;
     }
 
     .destination,
