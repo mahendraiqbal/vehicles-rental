@@ -111,7 +111,7 @@ span {
     font-size: 16px;
 }
 
-.icon-google{
+.icon-google {
     width: 6%;
     height: 50%;
 }
@@ -190,8 +190,8 @@ i {
     .sign-up {
         width: 400px;
     }
-    
-    .icon-google{
+
+    .icon-google {
         width: 7%;
     }
 }
@@ -220,7 +220,7 @@ i {
         font-size: 12px;
     }
 
-    .forgot-password{
+    .forgot-password {
         font-size: 12px;
     }
 
@@ -234,7 +234,7 @@ i {
         font-size: 12px;
     }
 
-    .icon-google{
+    .icon-google {
         height: 35%;
         width: 7%;
     }
@@ -250,12 +250,20 @@ i {
 }
 
 @media screen and (max-width: 520px) {
+    .row {
+        background-image: url(../assets/img/image-van.jpeg);
+        max-height: 100%;
+        height: auto;
+        background-size: cover;
+        filter: 50%;
+    }
+
     .title {
         padding: 5% 40%;
         font-size: 26px;
     }
 
-    .input-name{
+    .input-name {
         padding: 0 20%;
     }
 
@@ -263,8 +271,8 @@ i {
         width: 300px;
         font-size: 12px;
     }
-    
-    .input-email{
+
+    .input-email {
         padding: 5% 20%;
     }
 
@@ -273,7 +281,7 @@ i {
         font-size: 12px;
     }
 
-    .input-password{
+    .input-password {
         padding: 0 20%;
         padding-bottom: 3%;
     }
@@ -288,7 +296,7 @@ i {
         font-size: 12px;
     }
 
-    .button-sign-up-google{
+    .button-sign-up-google {
         padding: 5% 20%;
     }
 
@@ -297,12 +305,12 @@ i {
         font-size: 12px;
     }
 
-    .forgot-password{
+    .forgot-password {
         padding: 2% 20%;
         font-size: 12px;
     }
 
-    .button-login{
+    .button-login {
         padding: 2% 20%;
     }
 
@@ -311,12 +319,12 @@ i {
         font-size: 12px;
     }
 
-    .icon-google{
+    .icon-google {
         width: 7%;
         height: 35%;
     }
 
-    .button-sign-up{
+    .button-sign-up {
         padding: 2% 20%;
     }
 
