@@ -145,7 +145,7 @@ h1 {
     padding-top: 50%;
 }
 
-h6 {
+h2 {
     font-size: 20px;
     color: #FFFFFF;
     font-family: 'Nunito', sans-serif;
@@ -273,6 +273,8 @@ figcaption {
     background: white;
     position: relative;
     bottom: 30px;
+    left: 10px;
+    text-align: start;
 }
 
 .figcaption-tour {
@@ -364,7 +366,7 @@ h5 {
     object-fit: cover;
 }
 
-.icon-plus{
+.icon-plus {
     width: 7%;
     height: 9%;
     position: relative;
@@ -372,7 +374,7 @@ h5 {
     top: 5%;
 }
 
-.icon-circle{
+.icon-circle {
     z-index: 0;
     width: 7%;
     height: 9%;
@@ -435,7 +437,7 @@ p {
 
 .line {
     width: 100%;
-    padding: 5% 5%;
+    padding: 5% 0;
 }
 
 .icon-footer {
@@ -449,7 +451,7 @@ p {
         font-size: 40px;
     }
 
-    h6 {
+    h2 {
         font-size: 16px;
     }
 
@@ -511,7 +513,7 @@ p {
         font-size: 40px;
     }
 
-    h6 {
+    h2 {
         font-size: 15px;
     }
 
@@ -545,6 +547,10 @@ p {
         width: 155px;
         height: 32px;
         font-size: 14px;
+    }
+
+    figcaption {
+        font-size: 12px;
     }
 
     .button-explore {
@@ -591,7 +597,7 @@ p {
         font-size: 20px;
     }
 
-    h6 {
+    h2 {
         font-size: 7px;
     }
 
@@ -667,6 +673,11 @@ p {
         grid-template-columns: auto;
     }
 
+    figcaption{
+        left: 22px;
+        bottom: 20px;
+    }
+
     .img-van-1 {
         width: 90%;
         height: 90%;
@@ -721,6 +732,16 @@ p {
         height: 100%;
     }
 
+    .icon-plus {
+        width: 0;
+        height: 0;
+    }
+
+    .icon-circle {
+        width: 0;
+        height: 0;
+    }
+
     .icon-rental-2 {
         width: 5%;
         height: 14%;
@@ -738,12 +759,15 @@ p {
     }
 
     .footer {
+        font-size: 13px;
+        padding: 5% 5%;
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto;
     }
 
     .item-1 {
+        padding: 5% 5%;
         grid-row: 25% 25% 25% 25%;
     }
 }

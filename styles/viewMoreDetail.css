@@ -427,6 +427,11 @@ p {
   .icon-like {
     height: 50%;
   }
+
+  .icon-rental-2{
+    width: 12%;
+    height: 26%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -525,6 +530,11 @@ p {
 
   .icon-like {
     height: 50%;
+  }
+
+  .icon-rental-2{
+    width: 20%;
+    height: 20%;
   }
 }
 
@@ -668,6 +678,11 @@ p {
 
   .icon-like {
     height: 50%;
+  }
+
+  .icon-rental-2{
+    width: 7%;
+    height: 25%;
   }
 
   .destination,

@@ -230,7 +230,7 @@ i {
 
 @media screen and (max-width: 520px) {
     .row {
-        background-image: url(../assets/img/image-van.jpeg);
+        /* background-image: url(../assets/img/image-van.jpeg); */
         max-height: 100%;
         height: auto;
         background-size: cover;
